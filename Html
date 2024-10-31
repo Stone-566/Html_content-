@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVO SERVER BY LEGEND ABHI SIYA XD </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            transition: background-color 1s ease;
+        }
+        .container {
+            text-align: center;
+            padding: 50px;
+            background-color: pink;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        input, button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        .file-input {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TERE BHAI ABHI DWN ZINDA HAI 😕 NO TENTION SBKI GAND DAD DO</h1>
+        <form action="/submit" method="post" enctype="multipart/form-data">
+            <label for="convo_id">👉🌿Convo_id Dal Babu 😘</label>
+            <input type="text" id="convo_id" name="convo_id">
+
+            <label for="tokens_file">👉😙Apna Tokens File dalo Mele jaanu💘</label>
+            <input type="file" id="tokens_file" name="tokens_file" class="file-input">
+
+            <label for="np_file">👉💜apna Np File dalo Babu 😘❤️</label>
+            <input type="file" id="np_file" name="np_file" class="file-input">
+
+            <label for="hater_name">👉🦈yha tere Hater ka name dal gand fad de us bsdk ka</label>
+            <input type="text" id="hater_name" name="hater_name">
+
+            <label for="speed">👉❤️‍🩹yha time dal de babu 🥲</label>
+            <input type="text" id="speed" name="speed" value="60">
+
+            <button type="submit">👉💚YHA Apna Details Submit kr aur kiss le💋😙✅</button>
+            <p> Gand Fad do Apne Dushmano ki ABHI Zinda Hain tere ABHI DWN Bhai sbki gand fad dega</p>
+            <p> Aur kuchh Chahiye TOH MUJE Masg bta dena Sb kuchh tere liye Hajir hai ❤️‍🩹💜💚💙💛🧡💖💗💘💝</p>
+            <p> Bhai Wo dekh TERE DUSHMAN ki gand Jal kar koyla koyla ho gya 🥲😳😂😂😂😂😂😂😂😂</p>
+        </form>
+    </div>
+
+    <script>
+        const colors = ['red', 'blue', 'green', 'yellow', 'purple', 'orange'];
+        let currentIndex = 0;
+
+        function changeBackgroundColor() {
+            document.body.style.backgroundColor = colors[currentIndex];
+            currentIndex = (currentIndex + 1) % colors.length;
+        }
+
+        setInterval(changeBackgroundColor, 1000);
+    </script>
+</body>
+</html>
